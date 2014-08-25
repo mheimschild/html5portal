@@ -1,0 +1,12 @@
+form.form-horizontal(role="form")
+  legend Customer Selection
+  .form-group
+    .col-sm-12
+      select.form-control(ng-model='customerId')
+        option(value="1") Customer 1
+        option(value="2") Customer 2
+        option(value="3") Customer 3
+  .form-group
+    .col-sm-12
+      button.btn.btn-primary(type="submit" ng-click='select()') Select
+      button.btn.btn-default(type="submit" ng-click='back()') Back

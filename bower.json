@@ -1,0 +1,21 @@
+{
+  "name": "html5portal",
+  "version": "0.0.0",
+  "authors": [
+    "Milan Heimschild <milan@heimschild.com>"
+  ],
+  "description": "Portal based on HTML5 techstack",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.2.23",
+    "angular-route": "~1.2.23",
+    "bootstrap": "~3.2.0"
+  }
+}

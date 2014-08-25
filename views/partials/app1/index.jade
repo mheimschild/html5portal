@@ -1,0 +1,9 @@
+form.form-horizontal(role="form")
+  legend Customer Search
+  .form-group
+    label.control-label.col-sm-2(for="name") Name:
+    .col-sm-10
+      input.form-control(id="name" ng-model='name' placeholder="Enter customer's name")
+  .form-group
+    .col-sm-offset-2.col-sm-10
+      button.btn.btn-default(type="submit", ng-click='search()') Search
